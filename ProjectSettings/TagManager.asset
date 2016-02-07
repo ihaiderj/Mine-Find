@@ -8,6 +8,9 @@ TagManager:
   - PLAYER
   - ground
   - Particle
+  - PLATFORM
+  - plateforms
+  - base
   layers:
   - Default
   - TransparentFX
@@ -17,7 +20,7 @@ TagManager:
   - UI
   - 
   - 
-  - 
+  - platforms
   - 
   - 
   - 

@@ -6,7 +6,7 @@
 	<ProductVersion>10.0.20506</ProductVersion>
 	<SchemaVersion>2.0</SchemaVersion>
 	<RootNamespace></RootNamespace>
-	<ProjectGuid>{D6A42A7C-EB56-0871-89A9-9051BD25A81D}</ProjectGuid>
+	<ProjectGuid>{6F98D8D6-3185-BBBF-5F74-FD2A37785D5C}</ProjectGuid>
 	<OutputType>Library</OutputType>
 	<AppDesignerFolder>Properties</AppDesignerFolder>
 	<AssemblyName>Assembly-UnityScript</AssemblyName>
@@ -61,17 +61,11 @@
      <Compile Include="Assets\ExtremeFXvol1\Source\Scripts\EFX_tailtransformer.js" />
      <None Include="Assets\ExtremeFXvol1\Readme.txt" />
      <None Include="Assets\ExtremeFXvol1\Source\Shader\rimlight.shader" />
- <Reference Include="UnityEngine.Advertisements">
- <HintPath>C:/Program Files (x86)/Unity5.2.2/Editor/Data/UnityExtensions/Unity/Advertisements/UnityEngine.Advertisements.dll</HintPath>
- </Reference>
  <Reference Include="UnityEngine.UI">
  <HintPath>C:/Program Files (x86)/Unity5.2.2/Editor/Data/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll</HintPath>
  </Reference>
  <Reference Include="UnityEngine.Networking">
  <HintPath>C:/Program Files (x86)/Unity5.2.2/Editor/Data/UnityExtensions/Unity/Networking/UnityEngine.Networking.dll</HintPath>
- </Reference>
- <Reference Include="UnityEngine.Analytics">
- <HintPath>C:/Program Files (x86)/Unity5.2.2/Editor/Data/UnityExtensions/Unity/UnityAnalytics/UnityEngine.Analytics.dll</HintPath>
  </Reference>
  <Reference Include="Mono.Cecil">
  <HintPath>C:/Program Files (x86)/Unity5.2.2/Editor/Data/Managed/Mono.Cecil.dll</HintPath>
@@ -82,9 +76,9 @@
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="Assembly-CSharp-firstpass.csproj">
-      <Project>{0252E698-376A-2644-68BE-66830EB6A8CA}</Project>      <Name>Assembly-CSharp-firstpass</Name>    </ProjectReference>
+      <Project>{96EBEC5D-0537-5E0B-95C2-B9BB1A033533}</Project>      <Name>Assembly-CSharp-firstpass</Name>    </ProjectReference>
     <ProjectReference Include="Assembly-UnityScript-firstpass.unityproj">
-      <Project>{30939F9A-EEF8-54C9-2B2A-EDD751315048}</Project>      <Name>Assembly-UnityScript-firstpass</Name>    </ProjectReference>
+      <Project>{BAC479FD-40E6-4885-DB85-E19020E27D76}</Project>      <Name>Assembly-UnityScript-firstpass</Name>    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

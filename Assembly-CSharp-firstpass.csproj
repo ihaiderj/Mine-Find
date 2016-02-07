@@ -6,7 +6,7 @@
 	<ProductVersion>10.0.20506</ProductVersion>
 	<SchemaVersion>2.0</SchemaVersion>
 	<RootNamespace></RootNamespace>
-	<ProjectGuid>{0252E698-376A-2644-68BE-66830EB6A8CA}</ProjectGuid>
+	<ProjectGuid>{96EBEC5D-0537-5E0B-95C2-B9BB1A033533}</ProjectGuid>
 	<OutputType>Library</OutputType>
 	<AppDesignerFolder>Properties</AppDesignerFolder>
 	<AssemblyName>Assembly-CSharp-firstpass</AssemblyName>
@@ -58,17 +58,11 @@
      <Compile Include="Assets\Standard Assets\SmoothFollowCS.cs" />
      <None Include="Assets\ExtremeFXvol1\Readme.txt" />
      <None Include="Assets\ExtremeFXvol1\Source\Shader\rimlight.shader" />
- <Reference Include="UnityEngine.Advertisements">
- <HintPath>C:/Program Files (x86)/Unity5.2.2/Editor/Data/UnityExtensions/Unity/Advertisements/UnityEngine.Advertisements.dll</HintPath>
- </Reference>
  <Reference Include="UnityEngine.UI">
  <HintPath>C:/Program Files (x86)/Unity5.2.2/Editor/Data/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll</HintPath>
  </Reference>
  <Reference Include="UnityEngine.Networking">
  <HintPath>C:/Program Files (x86)/Unity5.2.2/Editor/Data/UnityExtensions/Unity/Networking/UnityEngine.Networking.dll</HintPath>
- </Reference>
- <Reference Include="UnityEngine.Analytics">
- <HintPath>C:/Program Files (x86)/Unity5.2.2/Editor/Data/UnityExtensions/Unity/UnityAnalytics/UnityEngine.Analytics.dll</HintPath>
  </Reference>
  <Reference Include="Mono.Cecil">
  <HintPath>C:/Program Files (x86)/Unity5.2.2/Editor/Data/Managed/Mono.Cecil.dll</HintPath>

@@ -6,7 +6,7 @@
 	<ProductVersion>10.0.20506</ProductVersion>
 	<SchemaVersion>2.0</SchemaVersion>
 	<RootNamespace></RootNamespace>
-	<ProjectGuid>{655BEAF1-AFFA-9FB3-A80D-E96F4223A388}</ProjectGuid>
+	<ProjectGuid>{CEDB61D3-DD30-263E-2C00-71F64BBFD5DA}</ProjectGuid>
 	<OutputType>Library</OutputType>
 	<AppDesignerFolder>Properties</AppDesignerFolder>
 	<AssemblyName>Assembly-CSharp</AssemblyName>
@@ -46,28 +46,24 @@
   </ItemGroup>
   <ItemGroup>
      <Compile Include="Assets\MyJoystick.cs" />
+     <Compile Include="Assets\Scripts\LevelManager.cs" />
      <Compile Include="Assets\Scripts\Managers\GameManager.cs" />
      <Compile Include="Assets\Scripts\Mine.cs" />
+     <Compile Include="Assets\Scripts\MineDefuser.cs" />
      <Compile Include="Assets\Scripts\Player.cs" />
-     <Compile Include="Assets\Scripts\Player2.cs" />
      <Compile Include="Assets\Scripts\UIManager.cs" />
      <Compile Include="Assets\SimpleMobileJoysticks\JoystickScripts\Demo.cs" />
      <Compile Include="Assets\SimpleMobileJoysticks\JoystickScripts\Joystick.cs" />
      <Compile Include="Assets\SimpleMobileJoysticks\JoystickScripts\Sample.cs" />
      <Compile Include="Assets\SimpleMobileJoysticks\JoystickScripts\TouchPad.cs" />
+     <Compile Include="Assets\[Scripts]\Formater.cs" />
      <None Include="Assets\ExtremeFXvol1\Readme.txt" />
      <None Include="Assets\ExtremeFXvol1\Source\Shader\rimlight.shader" />
- <Reference Include="UnityEngine.Advertisements">
- <HintPath>C:/Program Files (x86)/Unity5.2.2/Editor/Data/UnityExtensions/Unity/Advertisements/UnityEngine.Advertisements.dll</HintPath>
- </Reference>
  <Reference Include="UnityEngine.UI">
  <HintPath>C:/Program Files (x86)/Unity5.2.2/Editor/Data/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll</HintPath>
  </Reference>
  <Reference Include="UnityEngine.Networking">
  <HintPath>C:/Program Files (x86)/Unity5.2.2/Editor/Data/UnityExtensions/Unity/Networking/UnityEngine.Networking.dll</HintPath>
- </Reference>
- <Reference Include="UnityEngine.Analytics">
- <HintPath>C:/Program Files (x86)/Unity5.2.2/Editor/Data/UnityExtensions/Unity/UnityAnalytics/UnityEngine.Analytics.dll</HintPath>
  </Reference>
  <Reference Include="Mono.Cecil">
  <HintPath>C:/Program Files (x86)/Unity5.2.2/Editor/Data/Managed/Mono.Cecil.dll</HintPath>
@@ -78,9 +74,9 @@
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="Assembly-CSharp-firstpass.csproj">
-      <Project>{0252E698-376A-2644-68BE-66830EB6A8CA}</Project>      <Name>Assembly-CSharp-firstpass</Name>    </ProjectReference>
+      <Project>{96EBEC5D-0537-5E0B-95C2-B9BB1A033533}</Project>      <Name>Assembly-CSharp-firstpass</Name>    </ProjectReference>
     <ProjectReference Include="Assembly-UnityScript-firstpass.unityproj">
-      <Project>{30939F9A-EEF8-54C9-2B2A-EDD751315048}</Project>      <Name>Assembly-UnityScript-firstpass</Name>    </ProjectReference>
+      <Project>{BAC479FD-40E6-4885-DB85-E19020E27D76}</Project>      <Name>Assembly-UnityScript-firstpass</Name>    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

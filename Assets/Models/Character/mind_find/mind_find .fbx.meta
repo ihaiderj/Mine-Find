@@ -1,0 +1,959 @@
+fileFormatVersion: 2
+guid: dee85c0dc0e2340aeaeb4263eb421baf
+timeCreated: 1454672479
+licenseType: Pro
+ModelImporter:
+  serializedVersion: 18
+  fileIDToRecycleName:
+    100000: Forehead
+    100002: group2
+    100004: Head
+    100006: Hipway
+    100008: Left_Ankle
+    100010: Left_Ball
+    100012: Left_Clavicle
+    100014: Left_Elbow
+    100016: Left_Eyebrows
+    100018: Left_Eyes
+    100020: Left_Hip
+    100022: Left_Index
+    100024: Left_Index 1
+    100026: Left_Index 2
+    100028: Left_Knee
+    100030: Left_Middle
+    100032: Left_Middle 1
+    100034: Left_Middle 2
+    100036: Left_Pinky
+    100038: Left_Pinky 1
+    100040: Left_Pinky 2
+    100042: Left_Ring
+    100044: Left_Ring 1
+    100046: Left_Ring 2
+    100048: Left_Shoulder
+    100050: Left_Thumb
+    100052: Left_Thumb 1
+    100054: Left_Thumb 2
+    100056: LEft_Toe
+    100058: LEft_Toe 1
+    100060: Left_Wrist
+    100062: locator9
+    100064: Lower_Lips
+    100066: //RootNode
+    100068: Miney
+    100070: Neck
+    100072: nurbsCircle1
+    100074: nurbsCircle25
+    100076: nurbsCircle27
+    100078: polySurface196
+    100080: Right_Ankle
+    100082: Right_Ball
+    100084: Right_Clavicle
+    100086: Right_Elbow
+    100088: Right_Eyebrows
+    100090: Right_Eyes
+    100092: Right_Hip
+    100094: Right_Index
+    100096: Right_Index 1
+    100098: Right_Index 2
+    100100: Right_Knee
+    100102: Right_Middle
+    100104: Right_Middle 1
+    100106: Right_Middle 2
+    100108: Right_Pinky
+    100110: Right_Pinky 1
+    100112: Right_Pinky 2
+    100114: Right_Ring
+    100116: Right_Ring 1
+    100118: Right_Ring 2
+    100120: Right_Shoulder
+    100122: Right_Thumb
+    100124: Right_Thumb 1
+    100126: Right_Thumb 2
+    100128: Right_Wrist
+    100130: Root
+    100132: Spine_1
+    100134: Spine_2
+    100136: Upper_Lips
+    400000: Forehead
+    400002: group2
+    400004: Head
+    400006: Hipway
+    400008: Left_Ankle
+    400010: Left_Ball
+    400012: Left_Clavicle
+    400014: Left_Elbow
+    400016: Left_Eyebrows
+    400018: Left_Eyes
+    400020: Left_Hip
+    400022: Left_Index
+    400024: Left_Index 1
+    400026: Left_Index 2
+    400028: Left_Knee
+    400030: Left_Middle
+    400032: Left_Middle 1
+    400034: Left_Middle 2
+    400036: Left_Pinky
+    400038: Left_Pinky 1
+    400040: Left_Pinky 2
+    400042: Left_Ring
+    400044: Left_Ring 1
+    400046: Left_Ring 2
+    400048: Left_Shoulder
+    400050: Left_Thumb
+    400052: Left_Thumb 1
+    400054: Left_Thumb 2
+    400056: LEft_Toe
+    400058: LEft_Toe 1
+    400060: Left_Wrist
+    400062: locator9
+    400064: Lower_Lips
+    400066: //RootNode
+    400068: Miney
+    400070: Neck
+    400072: nurbsCircle1
+    400074: nurbsCircle25
+    400076: nurbsCircle27
+    400078: polySurface196
+    400080: Right_Ankle
+    400082: Right_Ball
+    400084: Right_Clavicle
+    400086: Right_Elbow
+    400088: Right_Eyebrows
+    400090: Right_Eyes
+    400092: Right_Hip
+    400094: Right_Index
+    400096: Right_Index 1
+    400098: Right_Index 2
+    400100: Right_Knee
+    400102: Right_Middle
+    400104: Right_Middle 1
+    400106: Right_Middle 2
+    400108: Right_Pinky
+    400110: Right_Pinky 1
+    400112: Right_Pinky 2
+    400114: Right_Ring
+    400116: Right_Ring 1
+    400118: Right_Ring 2
+    400120: Right_Shoulder
+    400122: Right_Thumb
+    400124: Right_Thumb 1
+    400126: Right_Thumb 2
+    400128: Right_Wrist
+    400130: Root
+    400132: Spine_1
+    400134: Spine_2
+    400136: Upper_Lips
+    2300000: polySurface196
+    3300000: polySurface196
+    4300000: Miney
+    4300002: polySurface196
+    7400000: WalkAnim
+    7400002: DigAnim
+    7400004: DiffuseAnim
+    7400006: IdleAnim
+    9500000: //RootNode
+    13700000: Miney
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: .5
+    animationPositionError: .5
+    animationScaleError: .5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: WalkAnim
+      takeName: Take 001
+      firstFrame: 0
+      lastFrame: 24
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Miney
+        weight: 1
+      - path: nurbsCircle27
+        weight: 1
+      - path: nurbsCircle27/group2
+        weight: 1
+      - path: nurbsCircle27/group2/locator9
+        weight: 1
+      - path: nurbsCircle27/group2/locator9/nurbsCircle25
+        weight: 1
+      - path: nurbsCircle27/group2/locator9/nurbsCircle25/polySurface196
+        weight: 1
+      - path: nurbsCircle27/group2/nurbsCircle1
+        weight: 1
+      - path: nurbsCircle27/group2/Root
+        weight: 1
+      - path: nurbsCircle27/group2/Root/Hipway
+        weight: 1
+      - path: nurbsCircle27/group2/Root/Hipway/Left_Hip
+        weight: 1
+      - path: nurbsCircle27/group2/Root/Hipway/Left_Hip/Left_Knee
+        weight: 1
+      - path: nurbsCircle27/group2/Root/Hipway/Left_Hip/Left_Knee/Left_Ankle
+        weight: 1
+      - path: nurbsCircle27/group2/Root/Hipway/Left_Hip/Left_Knee/Left_Ankle/Left_Ball
+        weight: 1
+      - path: nurbsCircle27/group2/Root/Hipway/Left_Hip/Left_Knee/Left_Ankle/Left_Ball/LEft_Toe
+        weight: 1
+      - path: nurbsCircle27/group2/Root/Hipway/Right_Hip
+        weight: 1
+      - path: nurbsCircle27/group2/Root/Hipway/Right_Hip/Right_Knee
+        weight: 1
+      - path: nurbsCircle27/group2/Root/Hipway/Right_Hip/Right_Knee/Right_Ankle
+        weight: 1
+      - path: nurbsCircle27/group2/Root/Hipway/Right_Hip/Right_Knee/Right_Ankle/Right_Ball
+        weight: 1
+      - path: nurbsCircle27/group2/Root/Hipway/Right_Hip/Right_Knee/Right_Ankle/Right_Ball/LEft_Toe
+          1
+        weight: 1
+      - path: nurbsCircle27/group2/Root/Spine_1
+        weight: 1
+      - path: nurbsCircle27/group2/Root/Spine_1/Spine_2
+        weight: 1
+      - path: nurbsCircle27/group2/Root/Spine_1/Spine_2/Left_Clavicle
+        weight: 1
+      - path: nurbsCircle27/group2/Root/Spine_1/Spine_2/Left_Clavicle/Left_Shoulder
+        weight: 1
+      - path: nurbsCircle27/group2/Root/Spine_1/Spine_2/Left_Clavicle/Left_Shoulder/Left_Elbow
+        weight: 1
+      - path: nurbsCircle27/group2/Root/Spine_1/Spine_2/Left_Clavicle/Left_Shoulder/Left_Elbow/Left_Wrist
+        weight: 1
+      - path: nurbsCircle27/group2/Root/Spine_1/Spine_2/Left_Clavicle/Left_Shoulder/Left_Elbow/Left_Wrist/Left_Index
+        weight: 1
+      - path: nurbsCircle27/group2/Root/Spine_1/Spine_2/Left_Clavicle/Left_Shoulder/Left_Elbow/Left_Wrist/Left_Index/Left_Index
+          1
+        weight: 1
+      - path: nurbsCircle27/group2/Root/Spine_1/Spine_2/Left_Clavicle/Left_Shoulder/Left_Elbow/Left_Wrist/Left_Index/Left_Index
+          1/Left_Index 2
+        weight: 1
+      - path: nurbsCircle27/group2/Root/Spine_1/Spine_2/Left_Clavicle/Left_Shoulder/Left_Elbow/Left_Wrist/Left_Middle
+        weight: 1
+      - path: nurbsCircle27/group2/Root/Spine_1/Spine_2/Left_Clavicle/Left_Shoulder/Left_Elbow/Left_Wrist/Left_Middle/Left_Middle
+          1
+        weight: 1
+      - path: nurbsCircle27/group2/Root/Spine_1/Spine_2/Left_Clavicle/Left_Shoulder/Left_Elbow/Left_Wrist/Left_Middle/Left_Middle
+          1/Left_Middle 2
+        weight: 1
+      - path: nurbsCircle27/group2/Root/Spine_1/Spine_2/Left_Clavicle/Left_Shoulder/Left_Elbow/Left_Wrist/Left_Pinky
+        weight: 1
+      - path: nurbsCircle27/group2/Root/Spine_1/Spine_2/Left_Clavicle/Left_Shoulder/Left_Elbow/Left_Wrist/Left_Pinky/Left_Pinky
+          1
+        weight: 1
+      - path: nurbsCircle27/group2/Root/Spine_1/Spine_2/Left_Clavicle/Left_Shoulder/Left_Elbow/Left_Wrist/Left_Pinky/Left_Pinky
+          1/Left_Pinky 2
+        weight: 1
+      - path: nurbsCircle27/group2/Root/Spine_1/Spine_2/Left_Clavicle/Left_Shoulder/Left_Elbow/Left_Wrist/Left_Ring
+        weight: 1
+      - path: nurbsCircle27/group2/Root/Spine_1/Spine_2/Left_Clavicle/Left_Shoulder/Left_Elbow/Left_Wrist/Left_Ring/Left_Ring
+          1
+        weight: 1
+      - path: nurbsCircle27/group2/Root/Spine_1/Spine_2/Left_Clavicle/Left_Shoulder/Left_Elbow/Left_Wrist/Left_Ring/Left_Ring
+          1/Left_Ring 2
+        weight: 1
+      - path: nurbsCircle27/group2/Root/Spine_1/Spine_2/Left_Clavicle/Left_Shoulder/Left_Elbow/Left_Wrist/Left_Thumb
+        weight: 1
+      - path: nurbsCircle27/group2/Root/Spine_1/Spine_2/Left_Clavicle/Left_Shoulder/Left_Elbow/Left_Wrist/Left_Thumb/Left_Thumb
+          1
+        weight: 1
+      - path: nurbsCircle27/group2/Root/Spine_1/Spine_2/Left_Clavicle/Left_Shoulder/Left_Elbow/Left_Wrist/Left_Thumb/Left_Thumb
+          1/Left_Thumb 2
+        weight: 1
+      - path: nurbsCircle27/group2/Root/Spine_1/Spine_2/Neck
+        weight: 1
+      - path: nurbsCircle27/group2/Root/Spine_1/Spine_2/Neck/Head
+        weight: 1
+      - path: nurbsCircle27/group2/Root/Spine_1/Spine_2/Neck/Head/Forehead
+        weight: 1
+      - path: nurbsCircle27/group2/Root/Spine_1/Spine_2/Neck/Head/Left_Eyebrows
+        weight: 1
+      - path: nurbsCircle27/group2/Root/Spine_1/Spine_2/Neck/Head/Left_Eyes
+        weight: 1
+      - path: nurbsCircle27/group2/Root/Spine_1/Spine_2/Neck/Head/Lower_Lips
+        weight: 1
+      - path: nurbsCircle27/group2/Root/Spine_1/Spine_2/Neck/Head/Right_Eyebrows
+        weight: 1
+      - path: nurbsCircle27/group2/Root/Spine_1/Spine_2/Neck/Head/Right_Eyes
+        weight: 1
+      - path: nurbsCircle27/group2/Root/Spine_1/Spine_2/Neck/Head/Upper_Lips
+        weight: 1
+      - path: nurbsCircle27/group2/Root/Spine_1/Spine_2/Right_Clavicle
+        weight: 1
+      - path: nurbsCircle27/group2/Root/Spine_1/Spine_2/Right_Clavicle/Right_Shoulder
+        weight: 1
+      - path: nurbsCircle27/group2/Root/Spine_1/Spine_2/Right_Clavicle/Right_Shoulder/Right_Elbow
+        weight: 1
+      - path: nurbsCircle27/group2/Root/Spine_1/Spine_2/Right_Clavicle/Right_Shoulder/Right_Elbow/Right_Wrist
+        weight: 1
+      - path: nurbsCircle27/group2/Root/Spine_1/Spine_2/Right_Clavicle/Right_Shoulder/Right_Elbow/Right_Wrist/Right_Index
+        weight: 1
+      - path: nurbsCircle27/group2/Root/Spine_1/Spine_2/Right_Clavicle/Right_Shoulder/Right_Elbow/Right_Wrist/Right_Index/Right_Index
+          1
+        weight: 1
+      - path: nurbsCircle27/group2/Root/Spine_1/Spine_2/Right_Clavicle/Right_Shoulder/Right_Elbow/Right_Wrist/Right_Index/Right_Index
+          1/Right_Index 2
+        weight: 1
+      - path: nurbsCircle27/group2/Root/Spine_1/Spine_2/Right_Clavicle/Right_Shoulder/Right_Elbow/Right_Wrist/Right_Middle
+        weight: 1
+      - path: nurbsCircle27/group2/Root/Spine_1/Spine_2/Right_Clavicle/Right_Shoulder/Right_Elbow/Right_Wrist/Right_Middle/Right_Middle
+          1
+        weight: 1
+      - path: nurbsCircle27/group2/Root/Spine_1/Spine_2/Right_Clavicle/Right_Shoulder/Right_Elbow/Right_Wrist/Right_Middle/Right_Middle
+          1/Right_Middle 2
+        weight: 1
+      - path: nurbsCircle27/group2/Root/Spine_1/Spine_2/Right_Clavicle/Right_Shoulder/Right_Elbow/Right_Wrist/Right_Pinky
+        weight: 1
+      - path: nurbsCircle27/group2/Root/Spine_1/Spine_2/Right_Clavicle/Right_Shoulder/Right_Elbow/Right_Wrist/Right_Pinky/Right_Pinky
+          1
+        weight: 1
+      - path: nurbsCircle27/group2/Root/Spine_1/Spine_2/Right_Clavicle/Right_Shoulder/Right_Elbow/Right_Wrist/Right_Pinky/Right_Pinky
+          1/Right_Pinky 2
+        weight: 1
+      - path: nurbsCircle27/group2/Root/Spine_1/Spine_2/Right_Clavicle/Right_Shoulder/Right_Elbow/Right_Wrist/Right_Ring
+        weight: 1
+      - path: nurbsCircle27/group2/Root/Spine_1/Spine_2/Right_Clavicle/Right_Shoulder/Right_Elbow/Right_Wrist/Right_Ring/Right_Ring
+          1
+        weight: 1
+      - path: nurbsCircle27/group2/Root/Spine_1/Spine_2/Right_Clavicle/Right_Shoulder/Right_Elbow/Right_Wrist/Right_Ring/Right_Ring
+          1/Right_Ring 2
+        weight: 1
+      - path: nurbsCircle27/group2/Root/Spine_1/Spine_2/Right_Clavicle/Right_Shoulder/Right_Elbow/Right_Wrist/Right_Thumb
+        weight: 1
+      - path: nurbsCircle27/group2/Root/Spine_1/Spine_2/Right_Clavicle/Right_Shoulder/Right_Elbow/Right_Wrist/Right_Thumb/Right_Thumb
+          1
+        weight: 1
+      - path: nurbsCircle27/group2/Root/Spine_1/Spine_2/Right_Clavicle/Right_Shoulder/Right_Elbow/Right_Wrist/Right_Thumb/Right_Thumb
+          1/Right_Thumb 2
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: DigAnim
+      takeName: Take 001
+      firstFrame: 30
+      lastFrame: 90
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Miney
+        weight: 1
+      - path: nurbsCircle27
+        weight: 1
+      - path: nurbsCircle27/group2
+        weight: 1
+      - path: nurbsCircle27/group2/locator9
+        weight: 1
+      - path: nurbsCircle27/group2/locator9/nurbsCircle25
+        weight: 1
+      - path: nurbsCircle27/group2/locator9/nurbsCircle25/polySurface196
+        weight: 1
+      - path: nurbsCircle27/group2/nurbsCircle1
+        weight: 1
+      - path: nurbsCircle27/group2/Root
+        weight: 1
+      - path: nurbsCircle27/group2/Root/Hipway
+        weight: 1
+      - path: nurbsCircle27/group2/Root/Hipway/Left_Hip
+        weight: 1
+      - path: nurbsCircle27/group2/Root/Hipway/Left_Hip/Left_Knee
+        weight: 1
+      - path: nurbsCircle27/group2/Root/Hipway/Left_Hip/Left_Knee/Left_Ankle
+        weight: 1
+      - path: nurbsCircle27/group2/Root/Hipway/Left_Hip/Left_Knee/Left_Ankle/Left_Ball
+        weight: 1
+      - path: nurbsCircle27/group2/Root/Hipway/Left_Hip/Left_Knee/Left_Ankle/Left_Ball/LEft_Toe
+        weight: 1
+      - path: nurbsCircle27/group2/Root/Hipway/Right_Hip
+        weight: 1
+      - path: nurbsCircle27/group2/Root/Hipway/Right_Hip/Right_Knee
+        weight: 1
+      - path: nurbsCircle27/group2/Root/Hipway/Right_Hip/Right_Knee/Right_Ankle
+        weight: 1
+      - path: nurbsCircle27/group2/Root/Hipway/Right_Hip/Right_Knee/Right_Ankle/Right_Ball
+        weight: 1
+      - path: nurbsCircle27/group2/Root/Hipway/Right_Hip/Right_Knee/Right_Ankle/Right_Ball/LEft_Toe
+          1
+        weight: 1
+      - path: nurbsCircle27/group2/Root/Spine_1
+        weight: 1
+      - path: nurbsCircle27/group2/Root/Spine_1/Spine_2
+        weight: 1
+      - path: nurbsCircle27/group2/Root/Spine_1/Spine_2/Left_Clavicle
+        weight: 1
+      - path: nurbsCircle27/group2/Root/Spine_1/Spine_2/Left_Clavicle/Left_Shoulder
+        weight: 1
+      - path: nurbsCircle27/group2/Root/Spine_1/Spine_2/Left_Clavicle/Left_Shoulder/Left_Elbow
+        weight: 1
+      - path: nurbsCircle27/group2/Root/Spine_1/Spine_2/Left_Clavicle/Left_Shoulder/Left_Elbow/Left_Wrist
+        weight: 1
+      - path: nurbsCircle27/group2/Root/Spine_1/Spine_2/Left_Clavicle/Left_Shoulder/Left_Elbow/Left_Wrist/Left_Index
+        weight: 1
+      - path: nurbsCircle27/group2/Root/Spine_1/Spine_2/Left_Clavicle/Left_Shoulder/Left_Elbow/Left_Wrist/Left_Index/Left_Index
+          1
+        weight: 1
+      - path: nurbsCircle27/group2/Root/Spine_1/Spine_2/Left_Clavicle/Left_Shoulder/Left_Elbow/Left_Wrist/Left_Index/Left_Index
+          1/Left_Index 2
+        weight: 1
+      - path: nurbsCircle27/group2/Root/Spine_1/Spine_2/Left_Clavicle/Left_Shoulder/Left_Elbow/Left_Wrist/Left_Middle
+        weight: 1
+      - path: nurbsCircle27/group2/Root/Spine_1/Spine_2/Left_Clavicle/Left_Shoulder/Left_Elbow/Left_Wrist/Left_Middle/Left_Middle
+          1
+        weight: 1
+      - path: nurbsCircle27/group2/Root/Spine_1/Spine_2/Left_Clavicle/Left_Shoulder/Left_Elbow/Left_Wrist/Left_Middle/Left_Middle
+          1/Left_Middle 2
+        weight: 1
+      - path: nurbsCircle27/group2/Root/Spine_1/Spine_2/Left_Clavicle/Left_Shoulder/Left_Elbow/Left_Wrist/Left_Pinky
+        weight: 1
+      - path: nurbsCircle27/group2/Root/Spine_1/Spine_2/Left_Clavicle/Left_Shoulder/Left_Elbow/Left_Wrist/Left_Pinky/Left_Pinky
+          1
+        weight: 1
+      - path: nurbsCircle27/group2/Root/Spine_1/Spine_2/Left_Clavicle/Left_Shoulder/Left_Elbow/Left_Wrist/Left_Pinky/Left_Pinky
+          1/Left_Pinky 2
+        weight: 1
+      - path: nurbsCircle27/group2/Root/Spine_1/Spine_2/Left_Clavicle/Left_Shoulder/Left_Elbow/Left_Wrist/Left_Ring
+        weight: 1
+      - path: nurbsCircle27/group2/Root/Spine_1/Spine_2/Left_Clavicle/Left_Shoulder/Left_Elbow/Left_Wrist/Left_Ring/Left_Ring
+          1
+        weight: 1
+      - path: nurbsCircle27/group2/Root/Spine_1/Spine_2/Left_Clavicle/Left_Shoulder/Left_Elbow/Left_Wrist/Left_Ring/Left_Ring
+          1/Left_Ring 2
+        weight: 1
+      - path: nurbsCircle27/group2/Root/Spine_1/Spine_2/Left_Clavicle/Left_Shoulder/Left_Elbow/Left_Wrist/Left_Thumb
+        weight: 1
+      - path: nurbsCircle27/group2/Root/Spine_1/Spine_2/Left_Clavicle/Left_Shoulder/Left_Elbow/Left_Wrist/Left_Thumb/Left_Thumb
+          1
+        weight: 1
+      - path: nurbsCircle27/group2/Root/Spine_1/Spine_2/Left_Clavicle/Left_Shoulder/Left_Elbow/Left_Wrist/Left_Thumb/Left_Thumb
+          1/Left_Thumb 2
+        weight: 1
+      - path: nurbsCircle27/group2/Root/Spine_1/Spine_2/Neck
+        weight: 1
+      - path: nurbsCircle27/group2/Root/Spine_1/Spine_2/Neck/Head
+        weight: 1
+      - path: nurbsCircle27/group2/Root/Spine_1/Spine_2/Neck/Head/Forehead
+        weight: 1
+      - path: nurbsCircle27/group2/Root/Spine_1/Spine_2/Neck/Head/Left_Eyebrows
+        weight: 1
+      - path: nurbsCircle27/group2/Root/Spine_1/Spine_2/Neck/Head/Left_Eyes
+        weight: 1
+      - path: nurbsCircle27/group2/Root/Spine_1/Spine_2/Neck/Head/Lower_Lips
+        weight: 1
+      - path: nurbsCircle27/group2/Root/Spine_1/Spine_2/Neck/Head/Right_Eyebrows
+        weight: 1
+      - path: nurbsCircle27/group2/Root/Spine_1/Spine_2/Neck/Head/Right_Eyes
+        weight: 1
+      - path: nurbsCircle27/group2/Root/Spine_1/Spine_2/Neck/Head/Upper_Lips
+        weight: 1
+      - path: nurbsCircle27/group2/Root/Spine_1/Spine_2/Right_Clavicle
+        weight: 1
+      - path: nurbsCircle27/group2/Root/Spine_1/Spine_2/Right_Clavicle/Right_Shoulder
+        weight: 1
+      - path: nurbsCircle27/group2/Root/Spine_1/Spine_2/Right_Clavicle/Right_Shoulder/Right_Elbow
+        weight: 1
+      - path: nurbsCircle27/group2/Root/Spine_1/Spine_2/Right_Clavicle/Right_Shoulder/Right_Elbow/Right_Wrist
+        weight: 1
+      - path: nurbsCircle27/group2/Root/Spine_1/Spine_2/Right_Clavicle/Right_Shoulder/Right_Elbow/Right_Wrist/Right_Index
+        weight: 1
+      - path: nurbsCircle27/group2/Root/Spine_1/Spine_2/Right_Clavicle/Right_Shoulder/Right_Elbow/Right_Wrist/Right_Index/Right_Index
+          1
+        weight: 1
+      - path: nurbsCircle27/group2/Root/Spine_1/Spine_2/Right_Clavicle/Right_Shoulder/Right_Elbow/Right_Wrist/Right_Index/Right_Index
+          1/Right_Index 2
+        weight: 1
+      - path: nurbsCircle27/group2/Root/Spine_1/Spine_2/Right_Clavicle/Right_Shoulder/Right_Elbow/Right_Wrist/Right_Middle
+        weight: 1
+      - path: nurbsCircle27/group2/Root/Spine_1/Spine_2/Right_Clavicle/Right_Shoulder/Right_Elbow/Right_Wrist/Right_Middle/Right_Middle
+          1
+        weight: 1
+      - path: nurbsCircle27/group2/Root/Spine_1/Spine_2/Right_Clavicle/Right_Shoulder/Right_Elbow/Right_Wrist/Right_Middle/Right_Middle
+          1/Right_Middle 2
+        weight: 1
+      - path: nurbsCircle27/group2/Root/Spine_1/Spine_2/Right_Clavicle/Right_Shoulder/Right_Elbow/Right_Wrist/Right_Pinky
+        weight: 1
+      - path: nurbsCircle27/group2/Root/Spine_1/Spine_2/Right_Clavicle/Right_Shoulder/Right_Elbow/Right_Wrist/Right_Pinky/Right_Pinky
+          1
+        weight: 1
+      - path: nurbsCircle27/group2/Root/Spine_1/Spine_2/Right_Clavicle/Right_Shoulder/Right_Elbow/Right_Wrist/Right_Pinky/Right_Pinky
+          1/Right_Pinky 2
+        weight: 1
+      - path: nurbsCircle27/group2/Root/Spine_1/Spine_2/Right_Clavicle/Right_Shoulder/Right_Elbow/Right_Wrist/Right_Ring
+        weight: 1
+      - path: nurbsCircle27/group2/Root/Spine_1/Spine_2/Right_Clavicle/Right_Shoulder/Right_Elbow/Right_Wrist/Right_Ring/Right_Ring
+          1
+        weight: 1
+      - path: nurbsCircle27/group2/Root/Spine_1/Spine_2/Right_Clavicle/Right_Shoulder/Right_Elbow/Right_Wrist/Right_Ring/Right_Ring
+          1/Right_Ring 2
+        weight: 1
+      - path: nurbsCircle27/group2/Root/Spine_1/Spine_2/Right_Clavicle/Right_Shoulder/Right_Elbow/Right_Wrist/Right_Thumb
+        weight: 1
+      - path: nurbsCircle27/group2/Root/Spine_1/Spine_2/Right_Clavicle/Right_Shoulder/Right_Elbow/Right_Wrist/Right_Thumb/Right_Thumb
+          1
+        weight: 1
+      - path: nurbsCircle27/group2/Root/Spine_1/Spine_2/Right_Clavicle/Right_Shoulder/Right_Elbow/Right_Wrist/Right_Thumb/Right_Thumb
+          1/Right_Thumb 2
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: DiffuseAnim
+      takeName: Take 001
+      firstFrame: 100
+      lastFrame: 220
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Miney
+        weight: 1
+      - path: nurbsCircle27
+        weight: 1
+      - path: nurbsCircle27/group2
+        weight: 1
+      - path: nurbsCircle27/group2/locator9
+        weight: 1
+      - path: nurbsCircle27/group2/locator9/nurbsCircle25
+        weight: 1
+      - path: nurbsCircle27/group2/locator9/nurbsCircle25/polySurface196
+        weight: 1
+      - path: nurbsCircle27/group2/nurbsCircle1
+        weight: 1
+      - path: nurbsCircle27/group2/Root
+        weight: 1
+      - path: nurbsCircle27/group2/Root/Hipway
+        weight: 1
+      - path: nurbsCircle27/group2/Root/Hipway/Left_Hip
+        weight: 1
+      - path: nurbsCircle27/group2/Root/Hipway/Left_Hip/Left_Knee
+        weight: 1
+      - path: nurbsCircle27/group2/Root/Hipway/Left_Hip/Left_Knee/Left_Ankle
+        weight: 1
+      - path: nurbsCircle27/group2/Root/Hipway/Left_Hip/Left_Knee/Left_Ankle/Left_Ball
+        weight: 1
+      - path: nurbsCircle27/group2/Root/Hipway/Left_Hip/Left_Knee/Left_Ankle/Left_Ball/LEft_Toe
+        weight: 1
+      - path: nurbsCircle27/group2/Root/Hipway/Right_Hip
+        weight: 1
+      - path: nurbsCircle27/group2/Root/Hipway/Right_Hip/Right_Knee
+        weight: 1
+      - path: nurbsCircle27/group2/Root/Hipway/Right_Hip/Right_Knee/Right_Ankle
+        weight: 1
+      - path: nurbsCircle27/group2/Root/Hipway/Right_Hip/Right_Knee/Right_Ankle/Right_Ball
+        weight: 1
+      - path: nurbsCircle27/group2/Root/Hipway/Right_Hip/Right_Knee/Right_Ankle/Right_Ball/LEft_Toe
+          1
+        weight: 1
+      - path: nurbsCircle27/group2/Root/Spine_1
+        weight: 1
+      - path: nurbsCircle27/group2/Root/Spine_1/Spine_2
+        weight: 1
+      - path: nurbsCircle27/group2/Root/Spine_1/Spine_2/Left_Clavicle
+        weight: 1
+      - path: nurbsCircle27/group2/Root/Spine_1/Spine_2/Left_Clavicle/Left_Shoulder
+        weight: 1
+      - path: nurbsCircle27/group2/Root/Spine_1/Spine_2/Left_Clavicle/Left_Shoulder/Left_Elbow
+        weight: 1
+      - path: nurbsCircle27/group2/Root/Spine_1/Spine_2/Left_Clavicle/Left_Shoulder/Left_Elbow/Left_Wrist
+        weight: 1
+      - path: nurbsCircle27/group2/Root/Spine_1/Spine_2/Left_Clavicle/Left_Shoulder/Left_Elbow/Left_Wrist/Left_Index
+        weight: 1
+      - path: nurbsCircle27/group2/Root/Spine_1/Spine_2/Left_Clavicle/Left_Shoulder/Left_Elbow/Left_Wrist/Left_Index/Left_Index
+          1
+        weight: 1
+      - path: nurbsCircle27/group2/Root/Spine_1/Spine_2/Left_Clavicle/Left_Shoulder/Left_Elbow/Left_Wrist/Left_Index/Left_Index
+          1/Left_Index 2
+        weight: 1
+      - path: nurbsCircle27/group2/Root/Spine_1/Spine_2/Left_Clavicle/Left_Shoulder/Left_Elbow/Left_Wrist/Left_Middle
+        weight: 1
+      - path: nurbsCircle27/group2/Root/Spine_1/Spine_2/Left_Clavicle/Left_Shoulder/Left_Elbow/Left_Wrist/Left_Middle/Left_Middle
+          1
+        weight: 1
+      - path: nurbsCircle27/group2/Root/Spine_1/Spine_2/Left_Clavicle/Left_Shoulder/Left_Elbow/Left_Wrist/Left_Middle/Left_Middle
+          1/Left_Middle 2
+        weight: 1
+      - path: nurbsCircle27/group2/Root/Spine_1/Spine_2/Left_Clavicle/Left_Shoulder/Left_Elbow/Left_Wrist/Left_Pinky
+        weight: 1
+      - path: nurbsCircle27/group2/Root/Spine_1/Spine_2/Left_Clavicle/Left_Shoulder/Left_Elbow/Left_Wrist/Left_Pinky/Left_Pinky
+          1
+        weight: 1
+      - path: nurbsCircle27/group2/Root/Spine_1/Spine_2/Left_Clavicle/Left_Shoulder/Left_Elbow/Left_Wrist/Left_Pinky/Left_Pinky
+          1/Left_Pinky 2
+        weight: 1
+      - path: nurbsCircle27/group2/Root/Spine_1/Spine_2/Left_Clavicle/Left_Shoulder/Left_Elbow/Left_Wrist/Left_Ring
+        weight: 1
+      - path: nurbsCircle27/group2/Root/Spine_1/Spine_2/Left_Clavicle/Left_Shoulder/Left_Elbow/Left_Wrist/Left_Ring/Left_Ring
+          1
+        weight: 1
+      - path: nurbsCircle27/group2/Root/Spine_1/Spine_2/Left_Clavicle/Left_Shoulder/Left_Elbow/Left_Wrist/Left_Ring/Left_Ring
+          1/Left_Ring 2
+        weight: 1
+      - path: nurbsCircle27/group2/Root/Spine_1/Spine_2/Left_Clavicle/Left_Shoulder/Left_Elbow/Left_Wrist/Left_Thumb
+        weight: 1
+      - path: nurbsCircle27/group2/Root/Spine_1/Spine_2/Left_Clavicle/Left_Shoulder/Left_Elbow/Left_Wrist/Left_Thumb/Left_Thumb
+          1
+        weight: 1
+      - path: nurbsCircle27/group2/Root/Spine_1/Spine_2/Left_Clavicle/Left_Shoulder/Left_Elbow/Left_Wrist/Left_Thumb/Left_Thumb
+          1/Left_Thumb 2
+        weight: 1
+      - path: nurbsCircle27/group2/Root/Spine_1/Spine_2/Neck
+        weight: 1
+      - path: nurbsCircle27/group2/Root/Spine_1/Spine_2/Neck/Head
+        weight: 1
+      - path: nurbsCircle27/group2/Root/Spine_1/Spine_2/Neck/Head/Forehead
+        weight: 1
+      - path: nurbsCircle27/group2/Root/Spine_1/Spine_2/Neck/Head/Left_Eyebrows
+        weight: 1
+      - path: nurbsCircle27/group2/Root/Spine_1/Spine_2/Neck/Head/Left_Eyes
+        weight: 1
+      - path: nurbsCircle27/group2/Root/Spine_1/Spine_2/Neck/Head/Lower_Lips
+        weight: 1
+      - path: nurbsCircle27/group2/Root/Spine_1/Spine_2/Neck/Head/Right_Eyebrows
+        weight: 1
+      - path: nurbsCircle27/group2/Root/Spine_1/Spine_2/Neck/Head/Right_Eyes
+        weight: 1
+      - path: nurbsCircle27/group2/Root/Spine_1/Spine_2/Neck/Head/Upper_Lips
+        weight: 1
+      - path: nurbsCircle27/group2/Root/Spine_1/Spine_2/Right_Clavicle
+        weight: 1
+      - path: nurbsCircle27/group2/Root/Spine_1/Spine_2/Right_Clavicle/Right_Shoulder
+        weight: 1
+      - path: nurbsCircle27/group2/Root/Spine_1/Spine_2/Right_Clavicle/Right_Shoulder/Right_Elbow
+        weight: 1
+      - path: nurbsCircle27/group2/Root/Spine_1/Spine_2/Right_Clavicle/Right_Shoulder/Right_Elbow/Right_Wrist
+        weight: 1
+      - path: nurbsCircle27/group2/Root/Spine_1/Spine_2/Right_Clavicle/Right_Shoulder/Right_Elbow/Right_Wrist/Right_Index
+        weight: 1
+      - path: nurbsCircle27/group2/Root/Spine_1/Spine_2/Right_Clavicle/Right_Shoulder/Right_Elbow/Right_Wrist/Right_Index/Right_Index
+          1
+        weight: 1
+      - path: nurbsCircle27/group2/Root/Spine_1/Spine_2/Right_Clavicle/Right_Shoulder/Right_Elbow/Right_Wrist/Right_Index/Right_Index
+          1/Right_Index 2
+        weight: 1
+      - path: nurbsCircle27/group2/Root/Spine_1/Spine_2/Right_Clavicle/Right_Shoulder/Right_Elbow/Right_Wrist/Right_Middle
+        weight: 1
+      - path: nurbsCircle27/group2/Root/Spine_1/Spine_2/Right_Clavicle/Right_Shoulder/Right_Elbow/Right_Wrist/Right_Middle/Right_Middle
+          1
+        weight: 1
+      - path: nurbsCircle27/group2/Root/Spine_1/Spine_2/Right_Clavicle/Right_Shoulder/Right_Elbow/Right_Wrist/Right_Middle/Right_Middle
+          1/Right_Middle 2
+        weight: 1
+      - path: nurbsCircle27/group2/Root/Spine_1/Spine_2/Right_Clavicle/Right_Shoulder/Right_Elbow/Right_Wrist/Right_Pinky
+        weight: 1
+      - path: nurbsCircle27/group2/Root/Spine_1/Spine_2/Right_Clavicle/Right_Shoulder/Right_Elbow/Right_Wrist/Right_Pinky/Right_Pinky
+          1
+        weight: 1
+      - path: nurbsCircle27/group2/Root/Spine_1/Spine_2/Right_Clavicle/Right_Shoulder/Right_Elbow/Right_Wrist/Right_Pinky/Right_Pinky
+          1/Right_Pinky 2
+        weight: 1
+      - path: nurbsCircle27/group2/Root/Spine_1/Spine_2/Right_Clavicle/Right_Shoulder/Right_Elbow/Right_Wrist/Right_Ring
+        weight: 1
+      - path: nurbsCircle27/group2/Root/Spine_1/Spine_2/Right_Clavicle/Right_Shoulder/Right_Elbow/Right_Wrist/Right_Ring/Right_Ring
+          1
+        weight: 1
+      - path: nurbsCircle27/group2/Root/Spine_1/Spine_2/Right_Clavicle/Right_Shoulder/Right_Elbow/Right_Wrist/Right_Ring/Right_Ring
+          1/Right_Ring 2
+        weight: 1
+      - path: nurbsCircle27/group2/Root/Spine_1/Spine_2/Right_Clavicle/Right_Shoulder/Right_Elbow/Right_Wrist/Right_Thumb
+        weight: 1
+      - path: nurbsCircle27/group2/Root/Spine_1/Spine_2/Right_Clavicle/Right_Shoulder/Right_Elbow/Right_Wrist/Right_Thumb/Right_Thumb
+          1
+        weight: 1
+      - path: nurbsCircle27/group2/Root/Spine_1/Spine_2/Right_Clavicle/Right_Shoulder/Right_Elbow/Right_Wrist/Right_Thumb/Right_Thumb
+          1/Right_Thumb 2
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: IdleAnim
+      takeName: Take 001
+      firstFrame: 0
+      lastFrame: 0
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Miney
+        weight: 1
+      - path: nurbsCircle27
+        weight: 1
+      - path: nurbsCircle27/group2
+        weight: 1
+      - path: nurbsCircle27/group2/locator9
+        weight: 1
+      - path: nurbsCircle27/group2/locator9/nurbsCircle25
+        weight: 1
+      - path: nurbsCircle27/group2/locator9/nurbsCircle25/polySurface196
+        weight: 1
+      - path: nurbsCircle27/group2/nurbsCircle1
+        weight: 1
+      - path: nurbsCircle27/group2/Root
+        weight: 1
+      - path: nurbsCircle27/group2/Root/Hipway
+        weight: 1
+      - path: nurbsCircle27/group2/Root/Hipway/Left_Hip
+        weight: 1
+      - path: nurbsCircle27/group2/Root/Hipway/Left_Hip/Left_Knee
+        weight: 1
+      - path: nurbsCircle27/group2/Root/Hipway/Left_Hip/Left_Knee/Left_Ankle
+        weight: 1
+      - path: nurbsCircle27/group2/Root/Hipway/Left_Hip/Left_Knee/Left_Ankle/Left_Ball
+        weight: 1
+      - path: nurbsCircle27/group2/Root/Hipway/Left_Hip/Left_Knee/Left_Ankle/Left_Ball/LEft_Toe
+        weight: 1
+      - path: nurbsCircle27/group2/Root/Hipway/Right_Hip
+        weight: 1
+      - path: nurbsCircle27/group2/Root/Hipway/Right_Hip/Right_Knee
+        weight: 1
+      - path: nurbsCircle27/group2/Root/Hipway/Right_Hip/Right_Knee/Right_Ankle
+        weight: 1
+      - path: nurbsCircle27/group2/Root/Hipway/Right_Hip/Right_Knee/Right_Ankle/Right_Ball
+        weight: 1
+      - path: nurbsCircle27/group2/Root/Hipway/Right_Hip/Right_Knee/Right_Ankle/Right_Ball/LEft_Toe
+          1
+        weight: 1
+      - path: nurbsCircle27/group2/Root/Spine_1
+        weight: 1
+      - path: nurbsCircle27/group2/Root/Spine_1/Spine_2
+        weight: 1
+      - path: nurbsCircle27/group2/Root/Spine_1/Spine_2/Left_Clavicle
+        weight: 1
+      - path: nurbsCircle27/group2/Root/Spine_1/Spine_2/Left_Clavicle/Left_Shoulder
+        weight: 1
+      - path: nurbsCircle27/group2/Root/Spine_1/Spine_2/Left_Clavicle/Left_Shoulder/Left_Elbow
+        weight: 1
+      - path: nurbsCircle27/group2/Root/Spine_1/Spine_2/Left_Clavicle/Left_Shoulder/Left_Elbow/Left_Wrist
+        weight: 1
+      - path: nurbsCircle27/group2/Root/Spine_1/Spine_2/Left_Clavicle/Left_Shoulder/Left_Elbow/Left_Wrist/Left_Index
+        weight: 1
+      - path: nurbsCircle27/group2/Root/Spine_1/Spine_2/Left_Clavicle/Left_Shoulder/Left_Elbow/Left_Wrist/Left_Index/Left_Index
+          1
+        weight: 1
+      - path: nurbsCircle27/group2/Root/Spine_1/Spine_2/Left_Clavicle/Left_Shoulder/Left_Elbow/Left_Wrist/Left_Index/Left_Index
+          1/Left_Index 2
+        weight: 1
+      - path: nurbsCircle27/group2/Root/Spine_1/Spine_2/Left_Clavicle/Left_Shoulder/Left_Elbow/Left_Wrist/Left_Middle
+        weight: 1
+      - path: nurbsCircle27/group2/Root/Spine_1/Spine_2/Left_Clavicle/Left_Shoulder/Left_Elbow/Left_Wrist/Left_Middle/Left_Middle
+          1
+        weight: 1
+      - path: nurbsCircle27/group2/Root/Spine_1/Spine_2/Left_Clavicle/Left_Shoulder/Left_Elbow/Left_Wrist/Left_Middle/Left_Middle
+          1/Left_Middle 2
+        weight: 1
+      - path: nurbsCircle27/group2/Root/Spine_1/Spine_2/Left_Clavicle/Left_Shoulder/Left_Elbow/Left_Wrist/Left_Pinky
+        weight: 1
+      - path: nurbsCircle27/group2/Root/Spine_1/Spine_2/Left_Clavicle/Left_Shoulder/Left_Elbow/Left_Wrist/Left_Pinky/Left_Pinky
+          1
+        weight: 1
+      - path: nurbsCircle27/group2/Root/Spine_1/Spine_2/Left_Clavicle/Left_Shoulder/Left_Elbow/Left_Wrist/Left_Pinky/Left_Pinky
+          1/Left_Pinky 2
+        weight: 1
+      - path: nurbsCircle27/group2/Root/Spine_1/Spine_2/Left_Clavicle/Left_Shoulder/Left_Elbow/Left_Wrist/Left_Ring
+        weight: 1
+      - path: nurbsCircle27/group2/Root/Spine_1/Spine_2/Left_Clavicle/Left_Shoulder/Left_Elbow/Left_Wrist/Left_Ring/Left_Ring
+          1
+        weight: 1
+      - path: nurbsCircle27/group2/Root/Spine_1/Spine_2/Left_Clavicle/Left_Shoulder/Left_Elbow/Left_Wrist/Left_Ring/Left_Ring
+          1/Left_Ring 2
+        weight: 1
+      - path: nurbsCircle27/group2/Root/Spine_1/Spine_2/Left_Clavicle/Left_Shoulder/Left_Elbow/Left_Wrist/Left_Thumb
+        weight: 1
+      - path: nurbsCircle27/group2/Root/Spine_1/Spine_2/Left_Clavicle/Left_Shoulder/Left_Elbow/Left_Wrist/Left_Thumb/Left_Thumb
+          1
+        weight: 1
+      - path: nurbsCircle27/group2/Root/Spine_1/Spine_2/Left_Clavicle/Left_Shoulder/Left_Elbow/Left_Wrist/Left_Thumb/Left_Thumb
+          1/Left_Thumb 2
+        weight: 1
+      - path: nurbsCircle27/group2/Root/Spine_1/Spine_2/Neck
+        weight: 1
+      - path: nurbsCircle27/group2/Root/Spine_1/Spine_2/Neck/Head
+        weight: 1
+      - path: nurbsCircle27/group2/Root/Spine_1/Spine_2/Neck/Head/Forehead
+        weight: 1
+      - path: nurbsCircle27/group2/Root/Spine_1/Spine_2/Neck/Head/Left_Eyebrows
+        weight: 1
+      - path: nurbsCircle27/group2/Root/Spine_1/Spine_2/Neck/Head/Left_Eyes
+        weight: 1
+      - path: nurbsCircle27/group2/Root/Spine_1/Spine_2/Neck/Head/Lower_Lips
+        weight: 1
+      - path: nurbsCircle27/group2/Root/Spine_1/Spine_2/Neck/Head/Right_Eyebrows
+        weight: 1
+      - path: nurbsCircle27/group2/Root/Spine_1/Spine_2/Neck/Head/Right_Eyes
+        weight: 1
+      - path: nurbsCircle27/group2/Root/Spine_1/Spine_2/Neck/Head/Upper_Lips
+        weight: 1
+      - path: nurbsCircle27/group2/Root/Spine_1/Spine_2/Right_Clavicle
+        weight: 1
+      - path: nurbsCircle27/group2/Root/Spine_1/Spine_2/Right_Clavicle/Right_Shoulder
+        weight: 1
+      - path: nurbsCircle27/group2/Root/Spine_1/Spine_2/Right_Clavicle/Right_Shoulder/Right_Elbow
+        weight: 1
+      - path: nurbsCircle27/group2/Root/Spine_1/Spine_2/Right_Clavicle/Right_Shoulder/Right_Elbow/Right_Wrist
+        weight: 1
+      - path: nurbsCircle27/group2/Root/Spine_1/Spine_2/Right_Clavicle/Right_Shoulder/Right_Elbow/Right_Wrist/Right_Index
+        weight: 1
+      - path: nurbsCircle27/group2/Root/Spine_1/Spine_2/Right_Clavicle/Right_Shoulder/Right_Elbow/Right_Wrist/Right_Index/Right_Index
+          1
+        weight: 1
+      - path: nurbsCircle27/group2/Root/Spine_1/Spine_2/Right_Clavicle/Right_Shoulder/Right_Elbow/Right_Wrist/Right_Index/Right_Index
+          1/Right_Index 2
+        weight: 1
+      - path: nurbsCircle27/group2/Root/Spine_1/Spine_2/Right_Clavicle/Right_Shoulder/Right_Elbow/Right_Wrist/Right_Middle
+        weight: 1
+      - path: nurbsCircle27/group2/Root/Spine_1/Spine_2/Right_Clavicle/Right_Shoulder/Right_Elbow/Right_Wrist/Right_Middle/Right_Middle
+          1
+        weight: 1
+      - path: nurbsCircle27/group2/Root/Spine_1/Spine_2/Right_Clavicle/Right_Shoulder/Right_Elbow/Right_Wrist/Right_Middle/Right_Middle
+          1/Right_Middle 2
+        weight: 1
+      - path: nurbsCircle27/group2/Root/Spine_1/Spine_2/Right_Clavicle/Right_Shoulder/Right_Elbow/Right_Wrist/Right_Pinky
+        weight: 1
+      - path: nurbsCircle27/group2/Root/Spine_1/Spine_2/Right_Clavicle/Right_Shoulder/Right_Elbow/Right_Wrist/Right_Pinky/Right_Pinky
+          1
+        weight: 1
+      - path: nurbsCircle27/group2/Root/Spine_1/Spine_2/Right_Clavicle/Right_Shoulder/Right_Elbow/Right_Wrist/Right_Pinky/Right_Pinky
+          1/Right_Pinky 2
+        weight: 1
+      - path: nurbsCircle27/group2/Root/Spine_1/Spine_2/Right_Clavicle/Right_Shoulder/Right_Elbow/Right_Wrist/Right_Ring
+        weight: 1
+      - path: nurbsCircle27/group2/Root/Spine_1/Spine_2/Right_Clavicle/Right_Shoulder/Right_Elbow/Right_Wrist/Right_Ring/Right_Ring
+          1
+        weight: 1
+      - path: nurbsCircle27/group2/Root/Spine_1/Spine_2/Right_Clavicle/Right_Shoulder/Right_Elbow/Right_Wrist/Right_Ring/Right_Ring
+          1/Right_Ring 2
+        weight: 1
+      - path: nurbsCircle27/group2/Root/Spine_1/Spine_2/Right_Clavicle/Right_Shoulder/Right_Elbow/Right_Wrist/Right_Thumb
+        weight: 1
+      - path: nurbsCircle27/group2/Root/Spine_1/Spine_2/Right_Clavicle/Right_Shoulder/Right_Elbow/Right_Wrist/Right_Thumb/Right_Thumb
+          1
+        weight: 1
+      - path: nurbsCircle27/group2/Root/Spine_1/Spine_2/Right_Clavicle/Right_Shoulder/Right_Elbow/Right_Wrist/Right_Thumb/Right_Thumb
+          1/Right_Thumb 2
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    splitTangentsAcrossUV: 1
+    normalImportMode: 0
+    tangentImportMode: 1
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: .5
+    foreArmTwist: .5
+    upperLegTwist: .5
+    legTwist: .5
+    armStretch: .0500000007
+    legStretch: .0500000007
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

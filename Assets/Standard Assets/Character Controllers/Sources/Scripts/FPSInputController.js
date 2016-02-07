@@ -6,13 +6,13 @@ function Awake () {
 }
 
 // Update is called once per frame
-public var InpuZ:float;
-function GetInputData(val:float){
-InpuZ=val;
+public var InpuZ:Vector3;
+function GetInputData(val:Vector3){
+	InpuZ=val;
 }
 function Update () {
 	// Get the input vector from keyboard or analog stick
-	var directionVector = new Vector3(0.0, 0,InpuZ);
+	var directionVector = new Vector3(InpuZ.x, 0,InpuZ.z);
 	
 	if (directionVector != Vector3.zero) {
 		// Get the length of the directon vector and then normalize it
