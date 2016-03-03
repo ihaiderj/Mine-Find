@@ -2,11 +2,13 @@
 using System.Collections;
 
 public class MineDefuser : MonoBehaviour {
+
 	private static GameObject ob;
 	public static MineDefuser T{get{return ob.GetComponent<MineDefuser>();}}
 	public GameObject foundMine;
 	public GameObject joyStics;
 	public GameObject digButton;
+
 	private void Update(){
 
 	}

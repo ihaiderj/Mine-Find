@@ -6,6 +6,7 @@ public class Mine : MonoBehaviour {
 	bool isBlasted=false;
 	bool isTriggered=false;
 	bool isDigging=false;
+
 	public GameObject effect;
 
 	void Update(){
@@ -26,8 +27,6 @@ public class Mine : MonoBehaviour {
 					MineDefuser.T.OnMineFound(gameObject);
 				}
 			}
-
 		}
 	}
-
 }

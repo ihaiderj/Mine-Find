@@ -7,12 +7,29 @@ public class GameManager : MonoBehaviour {
 	public static GameManager Instance{get{return obj.GetComponent<GameManager>();}}
 	public GameObject detecterEffect;
 	public Transform mineParent;
+	public GameObject digParticlePref;
+
+	internal GameObject digParticleObj;
+
+	Player player;
+
+	static GameManager ins;
+	public static GameManager Ins{
+		get{
+			if(ins == null){
+				ins = FindObjectOfType<GameManager>();
+			}
+			return ins;
+		}
+	}
 
 	void Awake(){
 		obj=gameObject;
 	}
 
 	void Start(){
+		player = Player.Ins;
+
 		EnableMines();
 	}
 
@@ -41,12 +58,15 @@ public class GameManager : MonoBehaviour {
 		g.SetActive(true);
 		mineobj.GetComponent<Mine>().effect=g;
 
+		digParticleObj = (GameObject)Instantiate(digParticlePref);
+		digParticleObj.transform.position = player.digParticlePos.position;
+		digParticleObj.transform.parent = mineobj;
 	}
-
-
 }
+
 [System.Serializable]
 public struct GamePlayObjs{
+
 	public GameObject player;
 	public GameObject cam;
 
@@ -54,5 +74,4 @@ public struct GamePlayObjs{
 		player.SetActive(openclose);
 		cam.SetActive(openclose);
 	}
-
 }

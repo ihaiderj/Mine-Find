@@ -1,8 +1,12 @@
 ﻿using UnityEngine;
+using System;
 using System.Collections;
 using System.Collections.Generic;
 
 public class Player : Components {
+
+	Vector3 lastPosition;
+	GameObject digParticleObj;
 
 	public float rotationSpeed=5.0f;
 	public Renderer myArea;
@@ -11,21 +15,37 @@ public class Player : Components {
 	public float moveSpeed=2.0f;
 	public Transform FrontPoint;
 
-	Vector3 lastPosition;
 	public Transform playerSkeleton;
 	public Transform playerDirection;
 	public Transform climbCheckPoint;
 	public GameObject animObj;
-	public static Transform plrObj;
 	public Animator animController;
 	public GameObject digButton;
 	public GameObject diffuseButton;
+	public Transform digParticlePos;
 
+	public static Transform plrObj;
+	public static event Action OnDiffused;
 
+	GameManager gameManager;
+
+	static Player ins;
+	public static Player Ins{
+		get{
+			if(ins == null){
+				ins = FindObjectOfType<Player>();
+			}
+			return ins;
+		}
+	}
 
 	void Awake(){
 		plrObj=transform;
 		lastPosition=transform.position;
+	}
+
+	void Start(){
+		gameManager = GameManager.Ins;
 	}
 
 	public bool isMoving=false;
@@ -38,8 +58,6 @@ public class Player : Components {
 
 		}
 		else isMoving=false;
-
-
 	}
 	private CharacterController player{
 		get{
@@ -78,8 +96,11 @@ public class Player : Components {
 
 		Vector3 dir=FrontPoint.forward*directionVector.magnitude;
 		dir.y=gravity;
-		player.Move(dir*moveSpeed);
-		if(directionVector!=Vector3.zero)SetAnimIntIds("walk",animController);
+		player.Move(dir*(moveSpeed+dir.magnitude*0.025f));
+		if(directionVector!=Vector3.zero){
+			SetAnimIntIds("walk",animController);
+			animController.SetFloat("walkSpeed", 1f+(dir-(Vector3.up*gravity)).magnitude);
+		}
 		else SetAnimIntIds("idle",animController);//
 
 		Vector3 rotationDir = new Vector3(CnControls.CnInputManager.GetAxis("YRot"), 0, CnControls.CnInputManager.GetAxis("XRot"));
@@ -90,14 +111,15 @@ public class Player : Components {
 			transform.eulerAngles=v;
 		}
 	}
-
 	public void DigAnims(){
 		isInAction=true;
 		SetAnimIntIds("dig",animController);
 		digButton.SetActive(false);
 		StartCoroutine(DigFinish());
 	}
-
+	public void PlayDigParticle(){
+		gameManager.digParticleObj.GetComponent<ParticleSystem>().Play();
+	}
 	IEnumerator DigFinish(){
 		yield return new WaitForSeconds(1.2f);
 		SetAnimIntIds("idle",animController);//
@@ -111,6 +133,7 @@ public class Player : Components {
 	}
 	IEnumerator Difused(){
 		yield return new WaitForSeconds(1.2f);
+		if(OnDiffused != null)OnDiffused();
 		SetAnimIntIds("idle",animController);//
 		diffuseButton.SetActive(false);
 		Destroy(MineDefuser.T.foundMine.GetComponent<Mine>().effect);
@@ -129,7 +152,6 @@ public class Player : Components {
 			v+=transform.forward*4.0f;
 			transform.position=v;
 			//GetComponent<Player>().falling=false;
-
 		}
 //		Debug.Log(hit.collider.name);
 	}
@@ -146,7 +168,6 @@ public class Player : Components {
 
 
 	public static void SetAnimIntIds(int id,string key,Animator animtr){
-
 		int id1=animtr.GetInteger(key);
 
 		if(id1!=id){
@@ -156,7 +177,6 @@ public class Player : Components {
 
 	private static string currentAnim;
 	public static void SetAnimIntIds(string key,Animator animtr){
-		
 		if(currentAnim!=key){
 			animtr.SetTrigger(key);
 		}
